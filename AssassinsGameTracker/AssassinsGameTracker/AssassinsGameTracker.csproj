@@ -47,10 +47,11 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SignInScreen.cs" />
     <Compile Include="Countdown.cs" />
     <Compile Include="Tracker.cs" />
     <Compile Include="Statistics.cs" />
+    <Compile Include="Resources\layout\Login.cs" />
+    <Compile Include="Login.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
