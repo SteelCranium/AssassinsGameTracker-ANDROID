@@ -13,15 +13,26 @@ using Android.Widget;
 
 namespace AssassinsGameTracker
 {
-	[Activity (Label = "Statistics")]			
+	[Activity (Label = "AssassinsGameTracker", MainLauncher = true, Icon = "@drawable/icon")]
 	public class Statistics : Activity
 	{
+		int count = 1;
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
-			// Create your application here
+			// Set our view from the "main" layout resource
+			SetContentView (Resource.Layout.Statistics);
+
+			// Get our button from the layout resource,
+			// and attach an event to it
+			Button button = FindViewById<Button> (Resource.Id.myButton);
+
+			button.Click += delegate {
+				button.Text = string.Format ("{0} clicks!", count++);
+			};
 		}
-	}
+}
 }
 
