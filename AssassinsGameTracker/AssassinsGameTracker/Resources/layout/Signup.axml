@@ -3,42 +3,38 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <TextView
-        android:text="E-mail:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
     <EditText
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText1" />
-    <TextView
-        android:text="Password:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/editText1"
+        android:hint="Name" />
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
+        android:id="@+id/editText2"
+        android:hint="E-mail" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:hint="E-mail Confirmation" />
     <EditText
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2" />
-    <Button
-        android:text="Sign In"
+        android:id="@+id/editText3"
+        android:hint="Password" />
+    <EditText
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1" />
+        android:id="@+id/editText4"
+        android:hint="Password Confirmation" />
     <TextView
-        android:text="Don't have an account?"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DISCLAIMER: We are not responsible for any actual assassinations that occur within the duration of this game"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3" />
-    <Button
-        android:text="Sign Up"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2" />
+        android:id="@+id/textView1" />
 </LinearLayout>
