@@ -50,7 +50,6 @@
     <Compile Include="Countdown.cs" />
     <Compile Include="Tracker.cs" />
     <Compile Include="Statistics.cs" />
-    <Compile Include="Resources\layout\Login.cs" />
     <Compile Include="Login.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +64,7 @@
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\layout\Login.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
