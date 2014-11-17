@@ -1,9 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="AssassinsGameTracker\Statistics.cs">
     <Files>
       <File FileName="AssassinsGameTracker\MainActivity.cs" Line="1" Column="1" />
       <File FileName="AssassinsGameTracker\Statistics.cs" Line="2" Column="2" />
+=======
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="AssassinsGameTracker\Login.cs" Line="1" Column="1" />
+      <File FileName="AssassinsGameTracker\Countdown.cs" Line="1" Column="1" />
+      <File FileName="AssassinsGameTracker\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="AssassinsGameTracker\Signup.cs" Line="1" Column="1" />
+>>>>>>> origin/master
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

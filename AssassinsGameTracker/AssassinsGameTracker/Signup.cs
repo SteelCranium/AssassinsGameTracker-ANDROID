@@ -13,8 +13,8 @@ using Android.Widget;
 
 namespace AssassinsGameTracker
 {
-	[Activity (Label = "Login")]			
-	public class Login : Activity
+	[Activity (Label = "Signup")]			
+	public class Signup : Activity
 	{
 		protected override void OnCreate (Bundle bundle)
 		{
